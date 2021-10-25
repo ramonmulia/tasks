@@ -1,0 +1,30 @@
+[
+{
+    "name": "development",
+    "type": "postgres",
+    "host": "db",
+    "username": "admin",
+    "password": "admin",
+    "database": "every-io",
+    "port": 5432,
+    "keepConnectionAlive": true,
+    "entities": ["src/entity/*.ts"],
+    "logging": true,
+    "synchronize": true
+},
+{
+    "name": "test",
+    "type": "postgres",
+    "host": "localhost",
+    "username": "admin",
+    "password": "admin",
+    "database": "every-io-test",
+    "port": 5432,
+    "keepConnectionAlive": true,
+    "entities": ["src/entity/*.ts"],
+    "logging": false,
+    "synchronize": true
+}
+]
+
+    
